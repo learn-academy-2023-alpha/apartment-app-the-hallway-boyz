@@ -1,20 +1,20 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer"
+import ApartmentIndex from "./pages/ApartmentIndex";
 import Home from "./pages/Home";
 
-const App = ({
-  logged_in,
-  current_user,
-  new_user_route,
-  sign_in_route,
-  sign_out_route,
-}) => {
+const App = (props) => {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+        <Header {...props}/>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/apartmentindex" element={<ApartmentIndex />} />
+          </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
