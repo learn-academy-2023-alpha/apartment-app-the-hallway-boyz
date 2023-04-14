@@ -1,1 +1,47 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+
+* {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    font-size: x-large;
+}
+
+body {
+    background-color: #344966;
+}
+
+.card-body {
+    background-color: #A1B4CE;
+}
+
+.index-cards {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.apartments {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.footer {
+    color: rgb(2, 2, 174);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: #D7DFEA;
+}

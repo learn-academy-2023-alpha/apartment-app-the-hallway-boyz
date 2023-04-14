@@ -12,7 +12,32 @@ user2 = User.where(email: 'hallwaytest@testing.com').first_or_create(password: '
         price: 300000, 
         utilities: "washer, dryer, gas and electric",
         pets: true, 
-        image: "http://image.com"
+        image: "https://images.unsplash.com/photo-1561518663-f32e0091b049?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWlhbWklMjBhcGFydG1lbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+    },
+
+    {
+        bedrooms: 2,
+        bathrooms: 1,
+        address: "125 fourth street",
+        city: "Miami",
+        state: "FL",
+        square_footage: 500, 
+        price: 30000, 
+        utilities: "washer, dryer",
+        pets: true, 
+        image: "https://images.unsplash.com/photo-1561518663-f32e0091b049?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWlhbWklMjBhcGFydG1lbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        bedrooms: 6,
+        bathrooms: 3.5,
+        address: "125 seventh street",
+        city: "Orlando",
+        state: "FL",
+        square_footage: 1500, 
+        price: 500000, 
+        utilities: "washer, dryer, internet, gas, electric",
+        pets: true, 
+        image: "https://images.unsplash.com/photo-1561518663-f32e0091b049?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWlhbWklMjBhcGFydG1lbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
     }
 ]
     
@@ -27,7 +52,7 @@ user2 = User.where(email: 'hallwaytest@testing.com').first_or_create(password: '
         price: 900000,
         utilities: "Not included",
         pets: false,
-        image: "http://image.com"
+        image: "https://images.unsplash.com/photo-1490122417551-6ee9691429d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1pYW1pJTIwYXBhcnRtZW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
     }
 ]
 user1_apartments.each do |apartment|
