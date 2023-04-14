@@ -12,7 +12,7 @@ user2 = User.where(email: 'hallwaytest@testing.com').first_or_create(password: '
         price: 300000, 
         utilities: "washer, dryer, gas and electric",
         pets: true, 
-        image: "http://image.com"
+        image: "https://images.unsplash.com/photo-1561518663-f32e0091b049?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWlhbWklMjBhcGFydG1lbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
     }
 ]
     
@@ -27,7 +27,7 @@ user2 = User.where(email: 'hallwaytest@testing.com').first_or_create(password: '
         price: 900000,
         utilities: "Not included",
         pets: false,
-        image: "http://image.com"
+        image: "https://images.unsplash.com/photo-1561518663-f32e0091b049?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWlhbWklMjBhcGFydG1lbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
     }
 ]
 user1_apartments.each do |apartment|
